@@ -20,8 +20,8 @@ const nodes =
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 440,
-        "y": 240,
+        "x": 400,
+        "y": 80,
         "wires": [
             [
                 "37ea90b463ef7225"
@@ -42,15 +42,15 @@ const nodes =
                 "vt": "str"
             }
         ],
-        "repeat": "8",
+        "repeat": "",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "120",
         "payloadType": "num",
-        "x": 210,
-        "y": 180,
+        "x": 130,
+        "y": 60,
         "wires": [
             [
                 "07bc7082d6035be7"
@@ -70,12 +70,40 @@ const nodes =
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 640,
-        "y": 180,
+        "x": 620,
+        "y": 80,
         "wires": []
+    },
+    {
+        "id": "34f516e0dc03f1d0",
+        "type": "inject",
+        "z": "da2f1e7920580c91",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "50",
+        "payloadType": "num",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "07bc7082d6035be7"
+            ]
+        ]
     }
 ]
-
 
 
 
